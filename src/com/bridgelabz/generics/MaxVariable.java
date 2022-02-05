@@ -18,12 +18,11 @@ public class MaxVariable {
 		
 		Generic max = array[0];
 		
-		if(array[1].compareTo((Generic) max) > 0)
-			max = array[1];
-		
-		if(array[2].compareTo((Generic) max) > 0)
-			max = array[2];
-			
+		for(int i = 1; i < array.length; i++) {
+			if(array[i].compareTo(max) > 0)
+				max = array[i];
+		}
+					
 		return max;
 	}
 	

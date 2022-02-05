@@ -6,9 +6,9 @@ public class GenericsMain {
 	
 	public static void main(String[] args) {
 				
-		Integer[] intArray = {10,20,30};
-		Double[] doubleArray = {76.5732,20.8743,3.141};
-		String[] stringArray = {"Apple","Peach","Banana"};
+		Integer[] intArray = {10,20,30,40,50};
+		Double[] doubleArray = {76.5732,20.8743,3.141,28.93,96.73};
+		String[] stringArray = {"Apple","Peach","Banana","Mango","Grape"};
 		
 		MaxVariable max = new MaxVariable();
 		List<Integer> ints = max.toList(intArray);
